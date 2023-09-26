@@ -22,6 +22,7 @@ class NumberDisplayAdapter (_numbers: Array<String>) : RecyclerView.Adapter<Numb
             ).apply{
                 layoutParams = ViewGroup.LayoutParams(300, 300)
                 textSize = 25f
+                setPadding(10,10,0,10)
             }
         )
     }
