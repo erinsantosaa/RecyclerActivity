@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         // Step 1: Reference RecyclerView object
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
-        val numbers = arrayOf("1", "2", "3", "4", "5")
+        val numbers = arrayOf("1", "2", "3", "4", "5", "6", "7", "8", "9", "10")
 
         //Step 2: Provide a LayoutManager
         recyclerView.layoutManager = LinearLayoutManager(this)
